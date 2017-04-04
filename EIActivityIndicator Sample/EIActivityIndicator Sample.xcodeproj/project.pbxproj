@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC0ED2B1E93DB00008DE131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED2A1E93DB00008DE131 /* main.m */; };
+		5CC0ED2E1E93DB00008DE131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED2D1E93DB00008DE131 /* AppDelegate.m */; };
+		5CC0ED341E93DB00008DE131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0ED321E93DB00008DE131 /* Main.storyboard */; };
+		5CC0ED361E93DB00008DE131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0ED351E93DB00008DE131 /* Assets.xcassets */; };
+		5CC0ED391E93DB00008DE131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC0ED371E93DB00008DE131 /* LaunchScreen.storyboard */; };
+		5CC0ED4C1E93DBE0008DE131 /* EIActivityIndicatorAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED471E93DBE0008DE131 /* EIActivityIndicatorAnimator.m */; };
+		5CC0ED4D1E93DBE0008DE131 /* EIActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED491E93DBE0008DE131 /* EIActivityIndicatorView.m */; };
+		5CC0ED541E93DF72008DE131 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED521E93DF72008DE131 /* RootViewController.m */; };
+		5CC0ED581E93E004008DE131 /* FirstScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED571E93E004008DE131 /* FirstScreenViewController.m */; };
+		5CC0ED5B1E93E77B008DE131 /* SecondScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0ED5A1E93E77B008DE131 /* SecondScreenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CC0ED261E93DB00008DE131 /* EIActivityIndicator Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EIActivityIndicator Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC0ED2A1E93DB00008DE131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC0ED2C1E93DB00008DE131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CC0ED2D1E93DB00008DE131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CC0ED331E93DB00008DE131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC0ED351E93DB00008DE131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC0ED381E93DB00008DE131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC0ED3A1E93DB00008DE131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC0ED461E93DBE0008DE131 /* EIActivityIndicatorAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIActivityIndicatorAnimator.h; sourceTree = "<group>"; };
+		5CC0ED471E93DBE0008DE131 /* EIActivityIndicatorAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIActivityIndicatorAnimator.m; sourceTree = "<group>"; };
+		5CC0ED481E93DBE0008DE131 /* EIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIActivityIndicatorView.h; sourceTree = "<group>"; };
+		5CC0ED491E93DBE0008DE131 /* EIActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIActivityIndicatorView.m; sourceTree = "<group>"; };
+		5CC0ED4B1E93DBE0008DE131 /* EIActivityIndicatorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIActivityIndicatorStyle.h; sourceTree = "<group>"; };
+		5CC0ED511E93DF72008DE131 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5CC0ED521E93DF72008DE131 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5CC0ED551E93DF8D008DE131 /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		5CC0ED561E93E004008DE131 /* FirstScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstScreenViewController.h; sourceTree = "<group>"; };
+		5CC0ED571E93E004008DE131 /* FirstScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstScreenViewController.m; sourceTree = "<group>"; };
+		5CC0ED591E93E77B008DE131 /* SecondScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondScreenViewController.h; sourceTree = "<group>"; };
+		5CC0ED5A1E93E77B008DE131 /* SecondScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondScreenViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC0ED231E93DB00008DE131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC0ED1D1E93DB00008DE131 = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED281E93DB00008DE131 /* EIActivityIndicator Sample */,
+				5CC0ED271E93DB00008DE131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC0ED271E93DB00008DE131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED261E93DB00008DE131 /* EIActivityIndicator Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC0ED281E93DB00008DE131 /* EIActivityIndicator Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED4E1E93DF72008DE131 /* FirstScreen */,
+				5CC0ED4F1E93DF72008DE131 /* PageViewController */,
+				5CC0ED501E93DF72008DE131 /* RootViewController */,
+				5CC0ED531E93DF72008DE131 /* SecondScreen */,
+				5CC0ED431E93DBE0008DE131 /* EIActivityIndicator */,
+				5CC0ED2C1E93DB00008DE131 /* AppDelegate.h */,
+				5CC0ED2D1E93DB00008DE131 /* AppDelegate.m */,
+				5CC0ED321E93DB00008DE131 /* Main.storyboard */,
+				5CC0ED351E93DB00008DE131 /* Assets.xcassets */,
+				5CC0ED371E93DB00008DE131 /* LaunchScreen.storyboard */,
+				5CC0ED3A1E93DB00008DE131 /* Info.plist */,
+				5CC0ED291E93DB00008DE131 /* Supporting Files */,
+			);
+			path = "EIActivityIndicator Sample";
+			sourceTree = "<group>";
+		};
+		5CC0ED291E93DB00008DE131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED2A1E93DB00008DE131 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC0ED431E93DBE0008DE131 /* EIActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED441E93DBE0008DE131 /* Animation */,
+				5CC0ED451E93DBE0008DE131 /* Animator */,
+				5CC0ED481E93DBE0008DE131 /* EIActivityIndicatorView.h */,
+				5CC0ED491E93DBE0008DE131 /* EIActivityIndicatorView.m */,
+				5CC0ED4A1E93DBE0008DE131 /* Style */,
+			);
+			path = EIActivityIndicator;
+			sourceTree = "<group>";
+		};
+		5CC0ED441E93DBE0008DE131 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		5CC0ED451E93DBE0008DE131 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED461E93DBE0008DE131 /* EIActivityIndicatorAnimator.h */,
+				5CC0ED471E93DBE0008DE131 /* EIActivityIndicatorAnimator.m */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		5CC0ED4A1E93DBE0008DE131 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED4B1E93DBE0008DE131 /* EIActivityIndicatorStyle.h */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		5CC0ED4E1E93DF72008DE131 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED561E93E004008DE131 /* FirstScreenViewController.h */,
+				5CC0ED571E93E004008DE131 /* FirstScreenViewController.m */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		5CC0ED4F1E93DF72008DE131 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED551E93DF8D008DE131 /* PageViewController.h */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		5CC0ED501E93DF72008DE131 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED511E93DF72008DE131 /* RootViewController.h */,
+				5CC0ED521E93DF72008DE131 /* RootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		5CC0ED531E93DF72008DE131 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0ED591E93E77B008DE131 /* SecondScreenViewController.h */,
+				5CC0ED5A1E93E77B008DE131 /* SecondScreenViewController.m */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC0ED251E93DB00008DE131 /* EIActivityIndicator Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC0ED3D1E93DB01008DE131 /* Build configuration list for PBXNativeTarget "EIActivityIndicator Sample" */;
+			buildPhases = (
+				5CC0ED221E93DB00008DE131 /* Sources */,
+				5CC0ED231E93DB00008DE131 /* Frameworks */,
+				5CC0ED241E93DB00008DE131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EIActivityIndicator Sample";
+			productName = "EIActivityIndicator Sample";
+			productReference = 5CC0ED261E93DB00008DE131 /* EIActivityIndicator Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC0ED1E1E93DB00008DE131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Евгений Иванов";
+				TargetAttributes = {
+					5CC0ED251E93DB00008DE131 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54GU5F9Z34;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5CC0ED211E93DB00008DE131 /* Build configuration list for PBXProject "EIActivityIndicator Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC0ED1D1E93DB00008DE131;
+			productRefGroup = 5CC0ED271E93DB00008DE131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC0ED251E93DB00008DE131 /* EIActivityIndicator Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC0ED241E93DB00008DE131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0ED391E93DB00008DE131 /* LaunchScreen.storyboard in Resources */,
+				5CC0ED361E93DB00008DE131 /* Assets.xcassets in Resources */,
+				5CC0ED341E93DB00008DE131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC0ED221E93DB00008DE131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0ED2E1E93DB00008DE131 /* AppDelegate.m in Sources */,
+				5CC0ED2B1E93DB00008DE131 /* main.m in Sources */,
+				5CC0ED541E93DF72008DE131 /* RootViewController.m in Sources */,
+				5CC0ED581E93E004008DE131 /* FirstScreenViewController.m in Sources */,
+				5CC0ED4C1E93DBE0008DE131 /* EIActivityIndicatorAnimator.m in Sources */,
+				5CC0ED5B1E93E77B008DE131 /* SecondScreenViewController.m in Sources */,
+				5CC0ED4D1E93DBE0008DE131 /* EIActivityIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CC0ED321E93DB00008DE131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC0ED331E93DB00008DE131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC0ED371E93DB00008DE131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC0ED381E93DB00008DE131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC0ED3B1E93DB01008DE131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC0ED3C1E93DB01008DE131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC0ED3E1E93DB01008DE131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54GU5F9Z34;
+				INFOPLIST_FILE = "EIActivityIndicator Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgenyiv.EIActivityIndicator-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CC0ED3F1E93DB01008DE131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54GU5F9Z34;
+				INFOPLIST_FILE = "EIActivityIndicator Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evgenyiv.EIActivityIndicator-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC0ED211E93DB00008DE131 /* Build configuration list for PBXProject "EIActivityIndicator Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0ED3B1E93DB01008DE131 /* Debug */,
+				5CC0ED3C1E93DB01008DE131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC0ED3D1E93DB01008DE131 /* Build configuration list for PBXNativeTarget "EIActivityIndicator Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC0ED3E1E93DB01008DE131 /* Debug */,
+				5CC0ED3F1E93DB01008DE131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC0ED1E1E93DB00008DE131 /* Project object */;
+}
